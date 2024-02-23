@@ -34,13 +34,13 @@ text-align: center;
 }
 #lateralDer{
     color:white;
-        flex: 40%;
-        display: flex;
+    flex: 40%;
+    display: flex;
     flex-direction: column;
-        align-items: center;
-        overflow-x: hidden;
-        width: max-content;
-        height: max-content ; 
+    align-items: center;
+    overflow-x: hidden;
+    width: max-content;
+     height: max-content ; 
         
 }
 #repControl{
