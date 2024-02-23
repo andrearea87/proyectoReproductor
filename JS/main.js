@@ -321,7 +321,7 @@ class Reproductor{
         this.audio.currentTime=0;
         //this.audio =new Audio('canciones/'+this.cancionActual.url);
         this.audio.src='canciones/'+this.cancionActual.url;
-        this.audio.currentTime=180;
+        //this.audio.currentTime=180;
         //console.log(this.audio);
         this.estaPausado=true;
         this.audio.play();
