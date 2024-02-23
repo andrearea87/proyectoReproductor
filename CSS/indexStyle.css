@@ -51,7 +51,8 @@ text-align: center;
     align-items: center;
     justify-content: center;
     width: max-content;
-    height: max-content ;   
+    height: max-content ; 
+    cursor: pointer;  
 }
 
 #search{
@@ -181,6 +182,10 @@ input{
 
 #divSalir{
    margin-top: 50px;
+}
+
+li{
+    cursor: pointer;
 }
 
 
