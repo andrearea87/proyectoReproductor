@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/indexStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+   <!-- <script defer src="JS/reproductor.js"></script>-->
+   <script defer src="JS/main.js"></script>
+</head>
+<body>
+    <div id="cabecera">
+        <div id="titulo">
+            <h1>--- Reproductor de Música ---</h1>          
+            <div id="divSalir">
+                <button id="logout"><i class="fa fa-user-circle"; style="color:white" id="salir"> Logout</i></button>
+            </div>            
+        </div>       
+    </div>   
+   
+    <div id="reproductorPrincipal">
+       
+        <div id="lateralIzq">
+            <label for="buscador">Buscador</label>
+        <div id="search">                      
+            <div class="input-icon">
+                <input type="text" placeholder="Buscar una canción..." id="txtBuscar" name="txtBuscar"/>
+                <i class="bi bi-search"></i>
+            </div>
+            <label for="buscar"><button id="btnBuscar">Buscar</button></label>
+        </div>
+
+        <br>
+        <label for="resultadosDelBuscador">Resultados del Buscador</label>
+        <div id="searchResults">
+            
+            <div id="resultadosBuscador">
+                
+            </div>
+        </div>
+        <br>
+        <label for="miPlaylist">Mi Playlist</label>
+        <div id="myPlaylist">
+            
+            <div id="miPlaylist">
+               
+            </div>
+        </div>
+        <br>
+        <label for="favoritos">Favoritos</label>
+        <div id="favorites">
+           
+            <div id="favoritos">
+               
+            </div>
+        </div>
+    </div>
+
+        <div id="lateralDer"  >
+            <div id="imagenAlbum">
+                <img src="" id="fuenteImagen" alt="imgAlbum">
+            </div>
+            <div id="songData">
+                
+            </div>
+            
+            <div id="repControl" >
+                <div><i class="fa fa-fast-backward"  id="back"></i></div>
+                <div><i style="font-size:24px" class="fa" id="play">&#xf0da;</i>
+                </div>
+                <div><i class="fa fa-fast-forward" id="forward"></i></div>
+                <div><i class="fa fa-stop" id="stop"></i></div>
+                <div id="mute"><i class="material-icons" id="btnMute">&#xe04f;</i></div>
+                <div><i class="fa fa-volume-up"; style="color:white" id="btnUnmute"></i></div>                
+            </div>
+            
+        </div>        
+    </div> 
+</body>
+</html>
+

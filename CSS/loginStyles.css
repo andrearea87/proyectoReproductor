@@ -1,0 +1,64 @@
+body{background-color: rgb(14, 9, 0);
+    ;
+}
+
+.portadaLogIn{
+    background-image: url("https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-color: rgb(255, 77, 0);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+   height:300px;
+   width: 80%;
+   text-align: center;
+   justify-content: center;
+   border-radius: 2%;
+   border: 4rem, white solid;
+   padding-bottom: 10%;
+   place-items:center;
+   margin-left: 15%;
+}
+
+h1{
+    color: white;
+    padding-top: 25%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    .login{display: flex;
+        flex-direction: column;
+        width: 15%;
+        text-align: center;
+        gap: 10%;
+        background-position: center;
+        height: fit-content;
+        display: block;
+    }
+    #loginForm{
+    margin-top: 10%;
+    color:rgb(240, 255, 247);
+   text-align: center;
+    }
+
+    label{
+        margin-top: 10%;
+        text-align: center;
+    }
+    .input-icon{
+        border-radius: 25%;
+    }
+
+    
+#loginBtn{
+    background-color: #4CAF50;
+    border: 1px solid white;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(48, 34, 128);
+    border-radius: 8px;
+}

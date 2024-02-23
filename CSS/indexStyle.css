@@ -1,0 +1,186 @@
+*{background-color: rgb(59, 41, 158);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+h1{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+    
+}
+
+#reproductorPrincipal{
+    color:white;
+    display: flex;
+    flex-direction: row;
+    /*align-items: center*/;
+    height: fit-content;
+    width: 70%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 5%;
+   
+   }
+#lateralIzq{
+    color:white;
+        flex:60%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        column-gap: 2px;  
+        overflow-x: hidden;
+        align-items:center;  
+        width: max-content;   
+        height: max-content ; 
+}
+#lateralDer{
+    color:white;
+        flex: 40%;
+        display: flex;
+    flex-direction: column;
+        align-items: center;
+        overflow-x: hidden;
+        width: max-content;
+        height: max-content ; 
+        
+}
+#repControl{
+    color:white;
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: max-content ;   
+}
+
+#search{
+   display: flex;
+   flex-direction: row;
+    color:white;
+    margin-top: 0%;   
+    overflow-x: hidden;
+    width: 60%;
+   
+
+
+}
+#btnBuscar , #logout{
+    background-color: #4CAF50;
+    border: 1px solid white;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(48, 34, 128);
+    border-radius: 8px;
+}
+.input-icon{
+    border-color: rgb(244, 255, 240);
+    border-radius: 25%;
+    color: white;
+}
+
+#searchResults{
+    
+    width: 60%;
+    height: 150px;
+    border: 3px solid;
+    padding-top: 2%;
+    border-color: rgb(255, 244, 244);
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 10%;
+}
+
+#myPlaylist{
+    
+    width: 60%;
+    height: 150px;
+    border: 3px solid;
+    padding: 10px;
+    border-color:  rgb(255, 244, 244);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border-radius: 10%;
+   
+
+}
+
+#favorites{
+   
+    width: 60%;
+    height: 150px;
+    border: 3px solid;
+    padding: 10px;
+    border-color:  rgb(255, 244, 244);
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 10%;
+   
+}
+
+#songData{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 100px;
+}
+
+
+#imagenAlbum img{
+    padding-top: 20%;
+    width: 300px;
+    height: 300px;
+    
+    
+   
+}
+
+input{
+    color: white;
+}
+
+
+.detalleCancion {
+    border-collapse: collapse;
+    table-layout: fixed;
+   
+  }
+  
+.detalleCancion tr {
+    border-bottom: 1pt solid white;
+}
+
+.detalleCancion td{
+    width: 80px;
+    word-wrap: break-word;
+}
+
+#txtBuscar{
+    border:1px solid white;
+    background-color:white;
+    border: none;
+    color: rgb(59, 41, 158);
+    padding: 5px 15px;
+    text-align: left;
+    text-decoration: none;
+    
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 2px;
+}
+
+#divSalir{
+    float: right;
+}
+
+
