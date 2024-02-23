@@ -141,7 +141,8 @@ class Reproductor{
                 <tr id="name">
                     <td><b>Nombre:</b></td>
                     <td>${cancionPlay[0].nombre}</td>
-                </tr>           
+                </tr>               
+                
             <tr id="duracion">
                 <td><b>Tiempo (seg):</b></td>
                 <td>
